@@ -1,5 +1,6 @@
 ### Node.gitignore
 
+out/
 # Logs
 logs
 *.log
