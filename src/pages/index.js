@@ -3,16 +3,15 @@ import "../styles/index.css";
 
 export default function Index() {
   return (
-    <div className="flex-col container mx-auto font-mono min-h-0">
-        <div className="text-sm text-gray-700">
+    <div className="container font-mono">
+      <div className="flex flex-col items-center content-center">
+        <div className="text-xl text-gray-400">
           <a href="https://leopard.dev">leopard.dev</a>
         </div>
-        <div className="items-end">
-          <p className="text-gray-600 text-sm">
-            currently developing great products for @creationshop
+          <p className="text-xs text-gray-400">
+             • site under construction •
           </p>
-          <p className="text-gray-500 text-sm">thanks for stopping by!</p>
-        <div className="text-gray-400 text-xs">
+        <div className="text-xs text-gray-400">
           <p className="inline block">
             Built by <a href="https://twitter.com/jonlprd">@jonlprd | </a>
           </p>
