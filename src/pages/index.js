@@ -1,4 +1,3 @@
-import Link from "next/link";
 import "../styles/index.css";
 
 export default function Index() {
