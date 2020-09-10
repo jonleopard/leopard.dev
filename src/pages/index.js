@@ -11,7 +11,7 @@ export default function Index() {
              • site under construction •
           </p>
         <div className="text-xs text-gray-400">
-          <p className="inline block">
+          <p className="block inline">
             Built by <a href="https://twitter.com/jonlprd">@jonlprd | </a>
           </p>
           <span>
@@ -22,3 +22,4 @@ export default function Index() {
     </div>
   );
 }
+
