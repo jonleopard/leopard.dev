@@ -1,7 +1,9 @@
+import PlausibleProvider from 'next-plausible'
 import Head from "next/head";
 
 export default function Index() {
   return (
+    <PlausibleProvider domain="leopard.dev">
     <div className="min-h-screen bg-gray-800">
       <Head>
         <title>leopard.dev - coming soon</title>
@@ -24,5 +26,6 @@ export default function Index() {
         </div>
       </div>
     </div>
+    </PlausibleProvider>
   );
 }
