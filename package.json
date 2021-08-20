@@ -6,15 +6,14 @@
     "export": "next export"
   },
   "dependencies": {
-    "next": "^10.0.9",
+    "next": "^11.1.0",
     "next-plausible": "^2.1.1",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
-    "@tailwindcss/jit": "^0.1.4",
-    "autoprefixer": "^10.2.5",
-    "postcss": "^8.2.8",
-    "tailwindcss": "^2.0.4"
+    "autoprefixer": "^10.3.1",
+    "postcss": "^8.3.6",
+    "tailwindcss": "^2.2.7"
   }
 }
